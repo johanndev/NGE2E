@@ -1,5 +1,5 @@
 module.exports = {
-    preset: "jest-playwright-preset",
+    preset: "jest-preset-angular",
     setupFilesAfterEnv: ["<rootDir>/setupJest.ts"],
     roots: ['src'],
     transform: {
@@ -15,5 +15,5 @@ module.exports = {
     },
     transformIgnorePatterns: [
       '/node_modules/(?!@ionic|ngx-socket-io/).+\\.js$'
-    ],
+    ]
   };

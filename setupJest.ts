@@ -1,1 +1,1 @@
-import 'jest-playwright-preset'
+import 'jest-preset-angular'

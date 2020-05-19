@@ -1,7 +1,7 @@
 {
   "name": "ng-e2e",
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jest-environment-jsdom-sixteen"
   },
   "version": "0.0.0",
   "scripts": {
